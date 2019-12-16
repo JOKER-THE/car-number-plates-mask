@@ -1,0 +1,90 @@
+/*****BASED****/
+.car-number-block {
+	display: inline-flex;
+	border: 2px solid #000;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 230px;
+	height: 48px;
+	position: relative;
+	line-height: normal;
+	font-size: medium;
+}
+.car-number-block input{
+	text-transform: uppercase;
+}
+.car-number-left {
+	padding: 5px 15px;
+	box-sizing: border-box;
+	width: 70%;
+	min-width: 70%;
+	display: flex;
+	align-items: center;
+}
+.car-number-right {
+	padding: 9px 10px 9px 11px;
+	border-left: 2px solid #000;
+	width: 30%;
+}
+.car-number-country {
+	font-size: 11px;
+	font-weight: 700;
+	font-family: Roboto,sans-serif;
+	display: flex;
+}
+.car-number-flag {
+	width: 18px;
+	height: 18px;
+	padding-left: 3px;
+}
+.car-number-text-number {
+	font-size: 31px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 0;
+	width: 100%;
+}
+.car-number-text-region {
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 0;
+	width: 100%;
+}
+
+/*****TYPES*****/
+.car-number-classic {
+	background-color: #fff;
+}
+.car-number-army {
+	background-color: #000 !important;
+	color: #fff !important;
+}
+.car-number-army input{
+	background-color: #000 !important;
+	color: #fff !important;
+}
+.car-number-army input::placeholder {
+	color: #fff !important;
+}
+.car-number-police {
+	background-color: #0b17d0 !important;
+	color: #fff !important;
+}
+.car-number-police input{
+	background-color: #0b17d0 !important;
+	color: #fff !important;
+}
+.car-number-police input::placeholder {
+	color: #fff !important;
+}
+.car-number-bus {
+	background-color: #d77900 !important;
+}
+.car-number-bus input{
+	background-color: #d77900 !important;
+}
