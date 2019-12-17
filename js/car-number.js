@@ -1,11 +1,12 @@
-input1.addEventListener('input', joinValues, false);
-input2.addEventListener('input', joinValues, false);
-
-function joinValues(){
-    input3.value = input1.value + input2.value + 'RUS';
+function joinValues(firstInput, secondInput){
+	var first = document.getElementById(firstInput);
+	var second = document.getElementById(secondInput);
+	var input = first.value + '.' + second.value + 'RUS';
+	document.getElementById('input-number').value = input;
 }
 
-function agreeForm(id) {
+function selectForm(id) {
+	document.getElementById('input-number').value = "";
 	blocks = document.getElementsByName('number-block')
 	blocks.forEach(function(block) {
     	block.style.display = "none";
